@@ -1,0 +1,52 @@
+<!DOCTYPE=html>
+<head>
+	<title>Achievit - Sign Up</title><link rel="icon" href="../images/icon.png">
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href = "css/contact.css">
+</head>
+<body>	
+	
+
+	<div class="wrapper"></div>
+<div class="container">	
+		<div class="logo" onclick="window.location.href = 'index.html';">	
+		</div>
+		<div class="box">
+			<h1>Sign up</h1>
+			<form id="sign-up">
+				<div class="myform">
+					<label>User name:</label>
+					<input type="text" name="User name" id="User-name">
+				</div>
+				<div class="myform">
+					<label>E-mail:</label>
+					<input type="text" name="E-mail" id="E-mail">
+				</div>
+				
+				<div class="myform">
+					<label>Password:</label>
+					<input type="password" name="Password" id="Password">
+				</div>
+				<div class="myform">
+					<label>Retype password:</label>
+					<input type="password" name="Retype password" id="rPassword">
+				</div>
+				<div class="myform">
+					<p align="center"><input type="submit" value="Sign up"name="Sign up"></p>
+				</div>
+				<hr>
+				<p align="center"><a href="sign_in.html">Already have an account? Sign in here.</a></p>
+			</form>
+		</div>
+	</div>
+	
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="js/firebase-config.js"></script>
+	<script src="js/auth.js"></script>
+	<script src="js/sign-up.js"></script>
+</body>
+</html>
